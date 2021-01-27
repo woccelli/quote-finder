@@ -47,6 +47,7 @@
 				<artifactId>appengine-maven-plugin</artifactId>
 				<version>1.9.84</version>
 				<configuration>
+					<project>okeenea-interview</project>
 					<version>1</version>
 				</configuration>
 
