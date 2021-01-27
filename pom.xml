@@ -42,7 +42,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.google.appengine</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>1.9.84</version>
+				<configuration>
+					<version>1</version>
+				</configuration>
+
+			</plugin>
+
 		</plugins>
 	</build>
-
 </project>
